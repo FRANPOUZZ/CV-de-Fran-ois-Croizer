@@ -50,7 +50,7 @@ main{
     flex-wrap: wrap;
 }
 
-section{
+div{
     padding-left: 50px;
     display:flex;
     flex-direction:column;
@@ -63,6 +63,7 @@ section{
     justify-content: space-around;
     flex-basis: 30%;
     background-color: #782221;
+    padding-right: 10px;
 }
 
 #career{
@@ -86,5 +87,9 @@ h2{
 
 #photo-cv{
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+#photo-cv:hover{
+    cursor:zoom-in;
 }
